@@ -19,13 +19,12 @@
      
      //$sql - tresc zapytania SQL 
  
-     
      // $id - W zmiennej $id będzie przechowywany identyfikator uzytkownika, który chcemy odszukac w bazie danych
-     $id = 2;
+     $id = 1;
      
-    // $sql = "SELECT * FROM uzytkownicy WHERE id =$id ";
+     $sql = "SELECT * FROM uzytkownicy WHERE id =$id ";
      
-     $sql = "SELECT * FROM uzytkownicy";
+     //$sql = "SELECT * FROM uzytkownicy";
      
      
      if (!$result = $mysqli->query($sql)) {
